@@ -19,7 +19,7 @@
         <p>This is what you were looking for...</p>
         <div class="form">
             <?php
-                echo '<textarea rows="10" cols="100">' . $_SESSION["finalMessage"] . '</textarea>';
+                echo '<textarea rows="10" cols="100" readonly>' . $_SESSION["finalMessage"] . '</textarea>';
             ?>
         </div>
         <div class="generalDivEndPageButton">
