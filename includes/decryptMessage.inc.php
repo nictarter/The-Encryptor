@@ -11,7 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     //Key of encryption:
     $encryption_key = "ThE_EnCrYpToR";
     //Final decrypted message:
+    error_reporting(0);
     $decrypted_message = openssl_decrypt($message, $ciphering_method, $encryption_key);
+    error_reporting(0);
 
     //Return the decrypted message and display it:
     $_SESSION["finalMessage"] = $decrypted_message;
