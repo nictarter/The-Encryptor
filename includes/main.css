@@ -1,0 +1,82 @@
+/*FONTS FROM GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Gothic+Coding&family=Rubik+Glitch&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*MODIFY FONT GOOGLE*/
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body {
+    background-color: rgb(194, 183, 183);
+}
+
+h1 {
+    text-align: center;
+    font-family: Rubik Glitch;
+    font-size: 50px;
+    padding: 0;
+}
+
+p {
+    font-family: Anton;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-family: Anton;
+}
+
+button:active {
+    box-shadow: 3px 2px 22px 1px;
+}
+
+button.home {
+    background-color: rgb(156, 147, 147);
+    color: black;
+}
+
+div.generalDivEndPageButton {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.buttonMainPage {
+    display: inline-block;
+}
+
+div#button1MainPage {
+    padding-right: 10px;
+}
+
+div#button2MainPage {
+    padding-left: 10px;
+}
+
+div.form {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+textarea {
+    padding: 15px;
+    border: 2px solid rgb(107, 97, 97);
+    border-radius: 10px;
+    background-color: rgb(236, 231, 231);
+    font-family: Anton;
+    font-size: 15px;
+    resize: none;
+}
