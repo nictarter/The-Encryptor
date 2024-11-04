@@ -6,5 +6,5 @@ It's so simple! And no account is required!
 ![image](https://github.com/user-attachments/assets/8fca7055-4b81-4368-a0bf-b0ec820c998b)
 # Demo
 Explore a *DEMO version* on [http://theencryptor.scienceontheweb.net/](url) <br/>
-Keep in mind that that website is hosted on a free domain and therefore, if anyone were to go on a non-existent part of the website, the free domain redirects you to advertisements.<br/>
+Keep in mind that that website is hosted on a free domain and therefore, if anyone were to go on a non-existent part of the website, the free domain would redirect them to advertisements.<br/>
 This is NOT a bug!!!
